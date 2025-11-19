@@ -1,41 +1,32 @@
-# Python
+venv/
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
-.venv
-*.egg
-*.egg-info/
-dist/
 build/
-
-# IDEs
-.vscode/
-.idea/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+env/
+ENV/
+.DS_Store
 *.swp
 *.swo
 *~
-
-# OS
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Proyecto
-screenshots/
-*.png
-*.jpg
-*.mp4
-*.avi
-debug_frames/
+.idea/
+.vscode/
 *.log
-
-# Pure Data
-*.pd_linux
-*.pd_darwin
-*.dll
-*.dylib
