@@ -1,8 +1,6 @@
 # Data Sonification and Visualization  
 ### Sistemas de Interacción – Miniproyecto 5  
 
-🎥 **Demo Video:**  
-[Click here to watch the project demonstration](PON_AQUI_EL_LINK_DEL_VIDEO)
 
 **Authors:**  
 - David Felipe Hurtado Marroquín  
