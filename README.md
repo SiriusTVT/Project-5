@@ -38,15 +38,34 @@ Each parameter controls a different sound generator:
 
 ## 🖥️ Processing Sketch
 
-Our Processing sketch:
+Our Processing sketch performs the visualization in a dynamic way, and each dataset variable is represented through a specific visual property:
+
+- **Humidity (blue color):**  
+  Represented using blue lines or elements.  
+  Technically, **humidity controls the animation speed**:  
+  - Higher humidity → faster animation  
+  - Lower humidity → slower animation  
+  This simulates the variability and flow associated with water behavior.
+
+- **Temperature (purple color):**  
+  Represented with purple elements whose **intensity and “warmth” increase as the temperature rises**.  
+  - High temperature → brighter and more saturated purple  
+  - Low temperature → darker, less intense purple  
+  This mapping provides a visual sense of thermal variation.
+
+- **Stress (main circle):**  
+  Stress controls **the size of the central circle**:  
+  - Higher stress → larger circle  
+  - Lower stress → smaller circle  
+  This acts as a direct visual indicator of tension or pressure in the dataset.
+
+Additionally, the sketch:
 
 - Reads the dataset sequentially  
-- Visualizes the values using shapes and colors  
-- Sends humidity, temperature, and stress values to Pure Data using OSC  
-- Updates the visuals and audio in real time  
-- Allows interaction once all the data has been displayed  
-
-This creates a direct connection between the visual and auditory behavior.
+- Renders values using shapes, colors, and animation  
+- Sends humidity, temperature, and stress values to Pure Data through OSC  
+- Maintains real-time audio-visual synchronization  
+- Allows interaction once the full dataset has been displayed  
 
 ---
 
